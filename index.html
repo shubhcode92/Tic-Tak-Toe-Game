@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="first-class">
+        <h1 class="heading">Tic Tac Toe Game</h1>
+        <p>Please Start the game. </br> First person have X Symbol and another one has O. </br> Best Of Luck !</p>
+    </div>
+    <div id="second-class">
+        <div class="first" id="f00" onclick="changeValue(0, 0)"></div>
+        <div class="first" id="f01" onclick="changeValue(0, 1)"></div>
+        <div class="first" id="f02" onclick="changeValue(0, 2)"></div>
+        <div class="first" id="f10" onclick="changeValue(1, 0)"></div>
+        <div class="first" id="f11" onclick="changeValue(1, 1)"></div>
+        <div class="first" id="f12" onclick="changeValue(1, 2)"></div>
+        <div class="first" id="f20" onclick="changeValue(2, 0)"></div>
+        <div class="first" id="f21" onclick="changeValue(2, 1)"></div>
+        <div class="first" id="f22" onclick="changeValue(2, 2)"></div> 
+    </div>
+
+    <div id="third-class">
+        <h2 class="winner">Final Winner is : </h2>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

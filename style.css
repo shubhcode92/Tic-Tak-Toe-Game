@@ -1,0 +1,31 @@
+#second-class {
+    display: grid;
+    background-color: rgb(89, 104, 215);
+    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 120px 120px 120px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+body {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.first {
+    background-color: yellow;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.first:hover {
+    background-color: yellowgreen;
+}
+
+
+
